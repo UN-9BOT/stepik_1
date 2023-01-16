@@ -1,6 +1,10 @@
-n = input()
-print(f'Сумма цифр = {sum(int(i) for i in n)}')
-proz = 1
-for i in n:
-    proz = int(i) * proz
-print(f'Произведение цифр = {proz}')
+n = [i for i in input()]
+a = n[0]
+b = n[1]
+c = n[2]
+print(a, b, c, sep='')
+print(a, c, b, sep='')
+print(b, a, c, sep='')
+print(b, c, a, sep='')
+print(c, a, b, sep='')
+print(c, b, a, sep='')
