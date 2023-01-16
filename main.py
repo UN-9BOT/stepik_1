@@ -1,3 +1,4 @@
-def foo(a, d, n):
-    return a+d*(n-1)
-print(foo(int(input()), int(input()), int(input())))
+n = int(input())
+
+print(n, n * 2, n * 3, n * 4, n * 5, sep='---')
+
