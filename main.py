@@ -1,6 +1,5 @@
-n = input()
-w = input()
-if n == w:
-    print('Пароль принят')
-else:
-    print('Пароль не принят')
+def find_coupe(place_number):
+    coupe = (place_number - 1) // 4 + 1 # Возвращаем номер купе return coupe
+    return coupe
+place_number = int(input())
+print(find_coupe(place_number))
