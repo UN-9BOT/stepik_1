@@ -1,10 +1,9 @@
-n = [i for i in input()]
-a = n[0]
-b = n[1]
-c = n[2]
-print(a, b, c, sep='')
-print(a, c, b, sep='')
-print(b, a, c, sep='')
-print(b, c, a, sep='')
-print(c, a, b, sep='')
-print(c, b, a, sep='')
+word = [i for i in input()]
+a = word[0]
+b = word[1]
+c = word[2]
+d = word[3]
+print(f'Цифра в позиции тысяч равна {a}')
+print(f'Цифра в позиции сотен равна {b}')
+print(f'Цифра в позиции десятков равна {c}')
+print(f'Цифра в позиции единиц равна {d}')
