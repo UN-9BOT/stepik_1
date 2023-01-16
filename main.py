@@ -1,2 +1,1 @@
-n = int(input())
-print(n, n+1, n+2, sep='\n')
+print(sum(int(input()) for i in range(3)))
