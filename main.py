@@ -1,5 +1,3 @@
-def f(a, b):
-    return 3 * (a + b) ** 3 + 275 * b ** 2 - 127 * a - 41
-
-
-print(f(int(input()), int(input())))
+n = int(input())
+print(f'Следующее за числом {n} число: {n+1}')
+print(f'Для числа {n} предыдущее число: {n-1}')
