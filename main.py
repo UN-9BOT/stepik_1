@@ -1,3 +1,5 @@
-n = int(input())
-print('Объем =', n**3)
-print('Площадь полной поверхности =', 6*n**2)
+def f(a, b):
+    return 3 * (a + b) ** 3 + 275 * b ** 2 - 127 * a - 41
+
+
+print(f(int(input()), int(input())))
