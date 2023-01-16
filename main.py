@@ -1,6 +1,3 @@
-n1 = int(input())
-n2 = int(input())
-
-print(f'{n1} + {n2} = {n1+n2}')
-print(f'{n1} - {n2} = {n1-n2}')
-print(f'{n1} * {n2} = {n1*n2}')
+def foo(a, d, n):
+    return a+d*(n-1)
+print(foo(int(input()), int(input()), int(input())))
