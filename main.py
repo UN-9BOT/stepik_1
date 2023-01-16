@@ -1,2 +1,2 @@
-end = (input()+'!')
-print('Привет, ', end=end)
+n = int(input())
+print(n, n+1, n+2, sep='\n')
