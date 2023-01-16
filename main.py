@@ -1,1 +1,3 @@
-print(sum(int(input()) for i in range(3)))
+n = int(input())
+print('Объем =', n**3)
+print('Площадь полной поверхности =', 6*n**2)
