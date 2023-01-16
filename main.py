@@ -1,2 +1,6 @@
-n = int(input())
-print(f'{n} мин - это {n//60} час {n%60} минут.')
+n = input()
+print(f'Сумма цифр = {sum(int(i) for i in n)}')
+proz = 1
+for i in n:
+    proz = int(i) * proz
+print(f'Произведение цифр = {proz}')
