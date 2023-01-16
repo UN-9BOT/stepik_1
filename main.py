@@ -1,2 +1,6 @@
-n = sum(int(input()) for i in range(4))
-print(n*3)
+n1 = int(input())
+n2 = int(input())
+
+print(f'{n1} + {n2} = {n1+n2}')
+print(f'{n1} - {n2} = {n1-n2}')
+print(f'{n1} * {n2} = {n1*n2}')
